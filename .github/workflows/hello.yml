@@ -2,7 +2,7 @@ name: hello
 on: push
 jobs:
   hello:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-22.04
     steps:
       - run: echo "Hello, world"
       - uses: actions/checkout@v4
